@@ -1,0 +1,180 @@
+ 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CliniCare Fisioterapia</title>
+    <style>
+        /* CSS */
+        /* Estilos gerais do corpo */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f0f8f7; /* Cor suave de fundo */
+            color: #333; /* Cor do texto */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Cabeçalho do site */
+        header {
+            background-color: #009688; /* Cor que remete a saúde e bem-estar */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Logo no cabeçalho */
+        header img {
+          width: 80px;
+          height: auto;
+          margin-top: 10px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd700; /* Cor amarela para destaque */
+        }
+
+        /* Seções principais */
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        section h2 {
+            color: #00796b;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        /* Link voltar ao topo */
+        .back-to-top {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #009688;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .back-to-top:hover {
+            color: #00796b;
+            text-decoration: underline;
+        }
+
+        /* destaques */
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #009688;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsividade simples */
+        @media (max-width: 600px) {
+          .card {
+            width: 100%;
+          }
+        }
+    </style>
+</head>
+<body>
+    <header id="top">
+       <!-- Logo da clínica -->
+       <img src="fifioo.png" alt="logo CliniCare Fisioterapia" />
+        <h1>CliniCare Fisioterapia</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Quem Somos</h2>
+        <p>Somos especializados em oferecer tratamentos de fisioterapia personalizados para melhorar sua qualidade de vida e bem-estar. Nossa equipe conta com profissionais experientes e dedicados.</p>
+        <a href="#top" class="back-to-top">Voltar ao topo</a>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Fisioterapia Esportiva</h3>
+                <p>Tratamentos voltados à recuperação de atletas e praticantes de esportes, prevenindo lesões e promovendo melhor desempenho físico.</p>
+            </div>
+            <div class="card">
+                <h3>Reabilitação ortopédica</h3>
+                <p>Recuperação de traumas ortopédicos, fraturas e cirurgias para retorno à rotina com mais facilidade.</p>
+            </div>
+            <div class="card">
+                <h3>Fisioterapia Neurológica</h3>
+                <p>Cuidados especializados para pacientes com condições neurológicas, promovendo movimento e funcionalidade.</p>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top">Voltar ao topo</a>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para agendar uma consulta ou esclarecer dúvidas.</p>
+        <p>Email: scheffersophia776@gmail.com</p>
+        <p>Telefone: (49) 98896-9905</p>
+        <a href="#top" class="back-to-top">Voltar ao topo</a>
+    </section>
+
+  <!-- rodapé da página -->
+    <footer>
+     <div class="container">
+         <p>&copy; 2025 Sophia Scheffer. Todos os direitos autorais reservados.</p>
+     </div> 
+    </footer>
+</body>
+</html>
